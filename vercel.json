@@ -16,5 +16,8 @@
     }
   ],
   "functions": {},
-  "env": {}
+  "env": {},
+  "buildCommand": "cd client && npm run build",
+  "outputDirectory": "client/build",
+  "framework": "create-react-app"
 }

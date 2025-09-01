@@ -14,5 +14,7 @@
       "src": "/(.*)",
       "dest": "/client/build/index.html"
     }
-  ]
+  ],
+  "functions": {},
+  "env": {}
 }

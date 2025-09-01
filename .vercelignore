@@ -1,9 +1,21 @@
+# Exclude server directory
 server/
+
+# Exclude node_modules (will be installed during build)
 node_modules/
+
+# Exclude git files
 .git/
+
+# Exclude logs
 *.log
+
+# Exclude environment files
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Keep client directory
+!client/
